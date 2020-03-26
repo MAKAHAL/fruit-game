@@ -6,6 +6,9 @@
     <title>fruitGame</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -17,17 +20,32 @@
             </div>
           </div>
 
-          <p class="lead">GAME INST</p>
+          <p class="lead">You will be given a random number at the start of the game. There are four fruits below.
+            By clicking on a fruit you will add a specific amount of points to your total score.
+            You win the game by matching your total score to random number, you lose the game if
+            your total score goes above the random number. The value of each fruit is hidden from
+            you until you click on it. Each time when the game starts, the game will change the values
+            of each fruit</p>
     </div>
 
+    <div class="container">
+        <div class="panel panel-default">
+          <div class="panel-heading">My Fruits</div>
+          <div class="panel-body">
+              <img src="./assets/images/pin.jpg" id="pin"  width="200" height="100" >
+              <img src="./assets/images/banana.jpg" id="banana" width="200" height="100">
+              <img src="./assets/images/apple.jpg" id="apple" width="200" height="100">
+              <img src="./assets/images/waterm.jpg" id="waterm" width="200" height="100">
+          </div>
+        </div>
+      </div>
 
-    <div id="pics">  
-        <div class="col-md-4">
-            <div class="card mb-2">
-        <img src="./assets/images/apple.jpg" id="apple">
-        <img src="./assets/images/banana.jpg" id="banana">
-        <img src="./assets/images/apple.jpg" id="pin">
-        <img src="./assets/images/waterm.jpg" id="waterm">
-    </div>
+
+
+
+
+
+            </div>
+          
 </body>
 </html>
