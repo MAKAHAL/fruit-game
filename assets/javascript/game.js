@@ -135,6 +135,16 @@ randomGem();
                     }	
                 });
 
-
+                $("#reset").on("click", function() {
+                    wins = 0;
+                    losses = 0;
+                   Score = 0;
+                    $("#wins").html("Wins: " + 0);
+                    $("#losses").html("Losses: " + 0);
+                    $("#playerScore").html(Score);
+                    
+                    randomGem();
+                });
+        
     });
 
